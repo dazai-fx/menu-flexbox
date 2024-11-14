@@ -1,0 +1,14 @@
+.simple-menu{
+    background-color: aquamarine;
+}
+
+.simple-menu .list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.simple-menu .list .item {
+    
+}
+
