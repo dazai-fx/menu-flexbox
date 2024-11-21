@@ -1,0 +1,13 @@
+// Mixin para tablet (ancho inferior a 768px)
+@mixin tablet {
+  @media (max-width: $tablet) {
+    @content;
+  }
+}
+
+// Mixin para desktop (ancho superior a 768px)
+@mixin desktop {
+  @media (min-width: $escritorio) {
+    @content;
+  }
+}

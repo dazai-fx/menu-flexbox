@@ -1,0 +1,21 @@
+.content {
+  padding: 10px 20px;
+}
+@media (min-width: 769px) {
+  .content {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+}
+
+.simple-menu {
+  background-color: aquamarine;
+}
+.simple-menu .list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.simple-menu .list .item {
+  background-color: brown;
+}/*# sourceMappingURL=estilos.css.map */
